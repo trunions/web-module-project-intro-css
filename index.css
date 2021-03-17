@@ -1,0 +1,59 @@
+@font-face{
+    font-family:Roboto Mono;
+    src:url(../fonts/static/RobotoMono-Regular.ttf);
+}
+
+@font-face{
+    font-family: Chelsea Market;
+    src:url(../fonts/ChelseaMarket-Regular.ttf);
+}
+
+body{
+    font-family:'Roboto Mono', sans-serif;
+    
+}
+.menu{
+    text-align:center;
+    margin:20px auto;
+}
+
+.menu a{
+    text-decoration:none;
+    color:white;
+    margin: 0 10px;
+    padding: 10px;
+    border-radius: 20px;
+    display: -webkit-inline-box;
+    font-size: 1.5em;
+    
+}
+
+.first{
+    background-color:#FF764E;
+}
+
+.second{
+    background-color:#5ED3EB;
+
+}
+
+.third{
+    background-color:#FFCD69;
+
+}
+
+h1{
+    font-family: 'Chelsea Market', sans-serif;
+}
+
+.about{
+    background-color:#DDB9A3;
+}
+
+section .footer{
+    background-color:#F9E7DC;
+}
+
+span{
+    font-weight:bold;
+}
