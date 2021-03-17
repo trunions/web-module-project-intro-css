@@ -15,16 +15,19 @@ body{
 .menu{
     text-align:center;
     margin:20px auto;
+    width:65%;
 }
 
 .menu a{
     text-decoration:none;
     color:white;
-    margin: 0 10px;
+    margin: 0 45px;
     padding: 10px;
     border-radius: 20px;
     display: -webkit-inline-box;
     font-size: 1.5em;
+    text-align: center;
+    width: 19%;
     
 }
 
@@ -42,18 +45,88 @@ body{
 
 }
 
+.header{
+    display:inline;
+}
+
+img{
+    width: 24%;
+    border-radius: 50%;
+    margin: 20px 0 20px 75px;
+
+}
+
+.header h1{
+    display: inline;
+    font-size: 60px;
+    position: absolute;
+    top: 137px;
+    right: 187px;
+    letter-spacing: 3px;
+}
+
+section.header p:nth-last-of-type(2){
+    position:absolute;
+    font-size: 22px;
+    top: 294px;
+    right: 206px;
+    margin: 0;
+}
+
+section.header p:nth-last-of-type(1){
+    position: absolute;
+    font-size: 22px;
+    top: 344px;
+    right: 295px;
+    margin: 0;
+    width: 462px;
+    text-align: center;
+}
+
 h1{
     font-family: 'Chelsea Market', sans-serif;
 }
 
 .about{
     background-color:#DDB9A3;
+    color: white;
+    text-align: center;
+    font-size: 25px;
+    padding: 10px;
 }
 
-section .footer{
-    background-color:#F9E7DC;
+.info{
+    text-align: center;
+    width: 380px;
+    margin: auto;
+    font-size: 20px;
+}
+
+.info img{
+    border-radius: 0%;
+    margin: 20px auto 0;
+    width: 47%;
 }
 
 span{
     font-weight:bold;
+}
+
+footer{
+    background-color:#F9E7DC;
+    
+}
+
+footer img{
+    border-radius: 0%;
+    background-image: url(./assets/footer_img.jpg);
+    width: 100%;
+    margin: 0;
+    height: 343px;
+    background-position: center;
+    background-size: 50px;
+}
+
+footer nav{
+    background-color:#F9E7DC;
 }
